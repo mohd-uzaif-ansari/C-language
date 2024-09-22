@@ -1,0 +1,12 @@
+//print hello five time ~mohd-uzaif-ansari
+//printing serial number
+#include<stdio.h>
+
+int main(){
+    int i=0;
+    while(i<5){
+        printf("[%d] Hello world !\n",i);
+        i++;
+    }
+    return 0;
+}
