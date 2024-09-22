@@ -1,0 +1,33 @@
+/*Consept of INCREMENT(PRE/POST) & DECREMENT(PRE/POST)*/
+//~MOHD-UZAIF-ANSARI
+#include <stdio.h>
+
+int main()
+{
+    int a = 10, b = 20;
+
+    //  pre-increment
+    printf("Initial value of a: %d\n", a);
+    printf("Using pre-increment (++a): %d\n", ++a); // Increment first, then use the value
+    printf("Value of a after pre-increment: %d\n\n", a);
+
+    //  post-increment
+    printf("Initial value of b: %d\n", b);
+    printf("Using post-increment (b++): %d\n", b++); // Use the value first, then increment
+    printf("Value of b after post-increment: %d\n\n", b);
+
+    // Resetting values for decrement 
+    a = 10;
+    b = 20;
+    //  pre-decrement
+    printf("Initial value of a: %d\n", a);
+    printf("Using pre-decrement (--a): %d\n", --a); // Decrement first, then use the value
+    printf("Value of a after pre-decrement: %d\n\n", a);
+
+    //  post-decrement
+    printf("Initial value of b: %d\n", b);
+    printf("Using post-decrement (b--): %d\n", b--); // Use the value first, then decrement
+    printf("Value of b after post-decrement: %d\n", b);
+
+    return 0;
+}
